@@ -21,7 +21,7 @@
     "sinon": "^7.4.2",
     "tailwindcss": "^1.1.2"
   },
-  "browserlist": [
+  "browserslist": [
     "last 2 Chrome versions"
   ],
   "scripts": {
