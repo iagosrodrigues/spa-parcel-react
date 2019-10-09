@@ -1,7 +1,16 @@
 import React from 'react'
+import { BrowserRouter, Route } from 'react-router-dom'
 import { render } from 'react-dom'
-import App from './App'
 
 import './postcss/main.pcss'
 
-render(<App />, document.getElementById('app'))
+import App from './App'
+
+render(
+  <>
+    <BrowserRouter>
+      <Route path="/" component={App} />
+    </BrowserRouter>
+  </>,
+  document.getElementById('app')
+)
