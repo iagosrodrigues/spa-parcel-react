@@ -6,21 +6,21 @@
   "dependencies": {
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "react-router-dom": "^5.1.2"
+    "react-router-dom": "^5.2.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.6.0",
-    "@babel/preset-env": "^7.6.0",
-    "@babel/preset-react": "^7.0.0",
-    "@babel/register": "^7.6.0",
-    "babel-plugin-object-to-json-parse": "^0.0.8",
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-react": "^7.10.4",
+    "@babel/register": "^7.10.4",
+    "babel-plugin-object-to-json-parse": "^0.2.0",
     "chai": "^4.2.0",
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.14.0",
-    "mocha": "^6.2.0",
+    "mocha": "^8.0.1",
     "parcel-bundler": "^1.12.3",
-    "sinon": "^7.4.2",
-    "tailwindcss": "^1.1.2"
+    "sinon": "^9.0.2",
+    "tailwindcss": "^1.4.6"
   },
   "browserslist": [
     "last 2 Chrome versions"
